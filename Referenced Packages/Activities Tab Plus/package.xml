@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activities Tab Plus</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>Activities Tab Plus makes managing Activities easier for your users.  Your users can now go to a single tab to create new Tasks &amp; Events, review their Activities from the day and plan their upcoming Activities.  Activities Tab Plus displays all Emails, Tasks and Events in a single place and also allows you to create customized views of any type of Activity.</description>
+    <namespacePrefix>atplus</namespacePrefix>
+    <types>
+        <members>AdRotator</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>ActivitiesTabPlus</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ActivitiesTabPlus</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>StonyPointAd</members>
+        <name>StaticResource</name>
+    </types>
+    <version>30.0</version>
+</Package>

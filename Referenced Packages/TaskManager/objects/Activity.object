@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>completed_date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date the activity was completed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the activity was completed. This field will be populated by the system when the activity is marked as completed</inlineHelpText>
+        <label>Completed Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>isLate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether or not task was completed after due date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Task was completed after due date</inlineHelpText>
+        <label>isLate</label>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Task Manager Custom settings for Task History delete</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Allow_Admin_To_Delete_Completed_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When this check box is selected, admins will be allowed to delete completed tasks</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When this check box is selected, admins will be allowed to delete completed tasks</inlineHelpText>
+        <label>Allow Admin To Delete Completed Task</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Allow_Owner_To_Delete_Completed_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When this checkbox is selected, task owner will be allowed to delete completed tasks</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When this checkbox is selected, task owner will be allowed to delete completed tasks</inlineHelpText>
+        <label>Allow Owner To Delete Completed Task</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Task Manager Custom Settings</label>
+</CustomObject>

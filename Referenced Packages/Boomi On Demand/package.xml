@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Boomi On Demand</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>Boomi On Demand makes it possible for companies to integrate their applications, data and trading partners directly from the Web – without installing software packages or hardware appliances.</description>
+    <namespacePrefix>bod</namespacePrefix>
+    <types>
+        <members>BoomiOnDemand</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>BoomiOnDemand</members>
+        <members>Setup</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>BoomiOnDemand</members>
+        <members>BoomiOnDemand/BoomiLogo.png</members>
+        <name>Document</name>
+    </types>
+    <version>30.0</version>
+</Package>

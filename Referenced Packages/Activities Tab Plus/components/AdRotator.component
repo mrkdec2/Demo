@@ -1,0 +1,7 @@
+<apex:component >
+    <div style="position: absolute; top: 20px; right: 50px;">
+        <apex:outputLink value="http://www.stonyp.com" title="Stony Point is the leader in Salesforce and Force.com training." target="_blank">
+        <apex:image url="{!$Resource.atplus__StonyPointAd}" style="margin: 0px; padding: 0px; border-width: 0px"  width="234" height="60" />
+        </apex:outputLink>
+    </div>    
+</apex:component>
