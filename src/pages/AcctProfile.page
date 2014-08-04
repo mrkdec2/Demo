@@ -1,0 +1,21 @@
+<apex:page standardController="Account_Profile__c">
+  <apex:form >
+      <apex:sectionheader title="Account Profile Edit" subtitle="{!if(Account_Profile__c.Id==null,'New Account Profile',Account_Profile__c.Name)}"></apex:sectionheader>
+        <apex:pageBlock title="Account Profile 1" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!save}" value="Save"/>
+                <apex:commandButton action="{!cancel}" value="Cancel"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Account Profile 1" columns="3">
+                <apex:outputField value="{!Account_Profile__c.Name}"/>
+                <apex:inputField value="{!Account_Profile__c.Account__c}"/>
+                <apex:inputField value="{!Account_Profile__c.Test_Field__c}"/>
+                <apex:inputField value="{!Account_Profile__c.AP_Counter__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="My Content Section2" columns="3">
+                <apex:inputField value="{!Account_Profile__c.Description__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+
+    </apex:form>
+</apex:page>
