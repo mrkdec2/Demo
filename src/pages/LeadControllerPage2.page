@@ -1,0 +1,2 @@
+<apex:page Controller="DetailButtonController" action="{!doSomething}">
+</apex:page>

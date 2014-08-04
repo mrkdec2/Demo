@@ -1,0 +1,5 @@
+<apex:page standardController="Lead" extensions="LeadController" action="{!init}">
+    <apex:form >
+        <apex:commandButton value="Accept" action="{!init}"/>
+    </apex:form>
+</apex:page>

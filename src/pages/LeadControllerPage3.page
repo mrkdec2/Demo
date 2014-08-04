@@ -1,0 +1,2 @@
+<apex:page standardController="Lead" extensions="ListButtonController" action="{!doSomething}" recordSetVar="leads">
+</apex:page>
