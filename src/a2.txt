@@ -1,8 +1,7 @@
 aw
-<<<<<<< HEAD
+waty
 Update Masters
 =======
-Update Masters
-hehe
+watta
 >>>>>>> upstream/master
 plus line
