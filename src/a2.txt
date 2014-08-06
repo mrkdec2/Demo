@@ -7,4 +7,5 @@ watta
 sster
 plus lines
 to master
+<<<<<<< HEAD
 by mrkdec2
