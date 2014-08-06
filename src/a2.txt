@@ -1,9 +1,1 @@
-aw
-waty
-Update Masters
-=======
-watta
->>>>>>> upstream/master
-sster
-plus lines
-to master
+1st line
